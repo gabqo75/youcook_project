@@ -1,0 +1,60 @@
+/* Conteneur principal */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #183424; /* Ton vert foncé pour le texte */
+}
+
+/* Titres de sections simples */
+.profile-container h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #183424; /* Ligne fine sous le titre */
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+/* Style de la liste */
+.simple-list {
+  margin-top: 20px;
+}
+
+/* Chaque ligne de la liste */
+.simple-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px;
+  border-bottom: 1px solid #e0e0e0; /* Ligne grise très fine entre les items */
+}
+
+/* Le nom de la recette */
+.item-name {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* Liens d'action (Voir, Modifier, etc.) */
+.item-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.action-link {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #5CA87E; /* Ton vert d'action */
+}
+
+.delete-link {
+  color: #e74c3c; /* Rouge pour la suppression */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0;
+}

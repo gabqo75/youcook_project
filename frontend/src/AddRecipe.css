@@ -1,0 +1,54 @@
+.add-recipe-card {
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #183424;
+  border-radius: 15px;
+}
+
+.add-recipe-card h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-group label {
+  color: white;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+  width: 100% !important; 
+  box-sizing: border-box; 
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  resize: vertical; 
+  min-height: 100px;
+}
+
+.btn-publish {
+  width: 100%;
+  padding: 15px;
+  background-color: #5CA87E; 
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+

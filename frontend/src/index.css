@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2e8cf; /* Le fond crème/beige */
+  color: #333;
+}
+
+/* Style de la barre de navigation si tu veux la refaire comme l'image */
+nav {
+  background-color: #709d7d; /* Vert sauge du haut */
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.logo-box {
+  background-color: #a3c193; /* Couleur du bouton YOUCOOK */
+  padding: 8px 20px;
+  border-radius: 12px;
+  color: #384d30;
+  font-weight: 800;
+}
